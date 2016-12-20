@@ -10,4 +10,7 @@ xiaochengxu for wechat,小程序
 5. 组件库：https://mp.weixin.qq.com/debug/wxadoc/dev/component/?t=20161122
 
 ## 常见问题及解决方案
-1. //Todo
+1. 本地缓存storage,类似localStorage，存String/Object
+2. 页面跳转及传值，<navigator url="../detail/detail?name={{item.name}}"></navigator>
+3. 跨页面间通信，一个方案是：https://github.com/danneyyang/weapp-event
+4. 待续
