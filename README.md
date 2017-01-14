@@ -34,4 +34,5 @@ xiaochengxu for wechat,小程序
      <template is="header" data="{{title: 'start/stopRecord、play/pause/stopVoice'}}"/>
 
     ```
+ 5. 如何请求http数据？方法：开发者工具-点击项目-勾选开发环境不校验请求域名及TLS版本；  
 
