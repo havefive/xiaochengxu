@@ -16,7 +16,7 @@ xiaochengxu for wechat,小程序
 ## 常见问题及解决方案
 1. 本地缓存storage,类似localStorage，可以存取改删 String/Object
 2. 页面跳转及传值，<navigator url="../detail/detail?name={{item.name}}"></navigator>
-3. 跨页面通信，一个方案是：https://github.com/danneyyang/weapp-event
+3. 跨页面通信，发现一个方案是：https://github.com/danneyyang/weapp-event
 4. 组件化
 
     如模版：header.wxml
@@ -35,5 +35,6 @@ xiaochengxu for wechat,小程序
      <template is="header" data="{{title: 'start/stopRecord、play/pause/stopVoice'}}"/>
 
     ```
- 5. 如何请求http数据？方法：开发者工具-点击项目-勾选开发环境不校验请求域名及TLS版本；  
+    
+5. 如何请求http数据？方法：开发者工具-点击项目-勾选开发环境不校验请求域名及TLS版本；  
 
