@@ -11,6 +11,7 @@ xiaochengxu for wechat,小程序
 6. 入口，微信-发现-小程序，可以分享给朋友或群聊，可以置顶到消息页。
 7. 微信小程序分析服务:http://mta.qq.com/
 8. 小程序商店，知晓程序：https://minapp.com/miniapp/ ，猎豹移动：http://www.duba.com/wxapp/
+9. 微信小程序开发资源汇总：https://github.com/justjavac/awesome-wechat-weapp
 
 ## 常见问题及解决方案
 1. 本地缓存storage,类似localStorage，可以存取改删 String/Object
