@@ -37,4 +37,14 @@ xiaochengxu for wechat,小程序
     ```
     
 5. 如何请求http数据？方法：开发者工具-点击项目-勾选开发环境不校验请求域名及TLS版本；  
-
+6. Page 内部方法如何调用？方法：this.fn()，例如：
+ ```
+ fn:function () {
+   console.log("fn");
+ },
+ onReady: function () {
+    var that = this;
+    //that = this;
+    that.fn();
+ }    
+ ```
