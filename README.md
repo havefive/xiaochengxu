@@ -1,5 +1,5 @@
-# xiaochengxu
-xiaochengxu for wechat,小程序
+# xiaochengxu 小程序总结
+xiaochengxu for wechat,小程序开发快速入门
 
 ## 开始之前
 0. 注册开发者：https://mp.weixin.qq.com
@@ -15,6 +15,7 @@ xiaochengxu for wechat,小程序
 
 ## 常见问题及解决方案
 1. 本地缓存storage,类似localStorage，可以存取改删 String/Object
+
 2. 页面跳转及传值
 
 ```
@@ -22,6 +23,7 @@ xiaochengxu for wechat,小程序
 ```
 
 3. 跨页面通信，发现一个方案是：https://github.com/danneyyang/weapp-event
+
 4. 组件化
 
     如模版：header.wxml
@@ -41,7 +43,10 @@ xiaochengxu for wechat,小程序
 
     ```
     
-5. 如何请求http数据？方法：开发者工具-点击项目-勾选开发环境不校验请求域名及TLS版本；  
+5. 如何请求http数据？
+
+   方法：开发者工具-点击项目-勾选开发环境不校验请求域名及TLS版本；  
+   
 6. Page 内部方法如何调用？方法：this.fn()，例如：
  ```
  
