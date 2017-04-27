@@ -60,3 +60,40 @@ xiaochengxu for wechat,小程序开发快速入门
  } 
  
  ```
+ 7. 底部tabBar菜单栏显示不出来
+   解决方法：pages先后顺序配置正确，依次是第一个tabBar的路径，第二个tabBar的路径。。app页面的路径，例如：
+```
+{
+  "pages":[ 
+    "pages/week/index",
+    "pages/mine/index",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FC3D39",
+    "navigationBarTitleText": "title",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#9a9a9a",
+    "selectedColor": "#FC3D39",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/week/index",
+      "iconPath": "image/calendar.png",
+      "selectedIconPath": "image/calendar2.png",
+      "text": "first"
+    }, {
+      "pagePath": "pages/mine/index",
+      "iconPath": "image/mine.png",
+      "selectedIconPath": "image/mine2.png",
+      "text": "second"
+    }]
+  }
+}
+
+```
+    
+ 
