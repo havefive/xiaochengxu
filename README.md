@@ -1,5 +1,5 @@
-# xiaochengxu 小程序总结
-xiaochengxu for wechat,小程序开发快速入门
+# 微信小程序开发入门总结
+方便小程序快速开发
 
 ## 开始之前
 0. 注册开发者：https://mp.weixin.qq.com
@@ -8,8 +8,8 @@ xiaochengxu for wechat,小程序开发快速入门
 3. 用开发工具添加体验小程序，体验
 4. 官方简易教程：https://mp.weixin.qq.com/debug/wxadoc/dev/?t=20161122
 5. 组件库：https://mp.weixin.qq.com/debug/wxadoc/dev/component/?t=20161122
-6. 入口，微信-发现-小程序，可以分享给朋友或群聊，可以置顶到消息页。
-7. 微信小程序分析服务:http://mta.qq.com/
+6. 入口，微信-发现-小程序，可以分享给朋友或群聊，可以置顶到消息页，已新增二维码扫描进入。
+7. 微信小程序分析服务:开放平台后台或腾讯移动分析：http://mta.qq.com/
 8. 小程序商店，知晓程序：https://minapp.com/miniapp/ ，猎豹移动：http://www.duba.com/wxapp/
 9. 微信小程序开发资源汇总：https://github.com/justjavac/awesome-wechat-weapp
 
